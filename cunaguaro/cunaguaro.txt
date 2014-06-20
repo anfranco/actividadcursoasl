@@ -1,0 +1,4 @@
+equipo16  3310  4.2 10.9 1352216 439260 ?      Sl   10:02  10:11 cunaguaro
+root     12457  0.0  0.0   7852   884 pts/1    S+   14:01   0:00 grep --color=auto cunaguaro
+equipo16  3310  4.2 10.9 1352216 441328 ?      Sl   10:02  10:11 cunaguaro
+root     12478  0.0  0.0   7852   884 pts/1    S+   14:03   0:00 grep --color=auto cunaguaro
