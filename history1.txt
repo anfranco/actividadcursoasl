@@ -1,0 +1,136 @@
+    1  fsdisk -l
+    2  fdisk -l
+    3  ls
+    4  touch curso1.txt
+    5  touch curso2.txt
+    6  touch curso3.txt
+    7  touch curso4.txt
+    8  touch curso5.txt
+    9  ls -la
+   10  chmod 777 curso1.txt 
+   11  ls -la
+   12  chmod 065 curso1.txt 
+   13  ls -la
+   14  chmod 726 curso2.txt 
+   15  chmod 726 curso3.txt 
+   16  chmod 111 curso3.txt 
+   17  chmod 227 curso4.txt 
+   18  chmod 064 curso5.txt 
+   19  ls -la
+   20* 
+   21  mkdir cunaguaro
+   22  ls
+   23  cd cunaguaro/
+   24  ps -aux | grep >> cunaguaro.txt
+   25  ps -aux | grep cunaguaro >> cunaguaro.txt
+   26  ps -aux | grep cunaguaro
+   27  ps -aux | grep cunaguaro >> cunaguaro.txt 
+   28  ps -aux | grep  cunaguaro.txt 
+   29  ls
+   30  cd ..
+   31  mkdir kernel
+   32  ls
+   33  cd kernel/
+   34  ls
+   35  cd ..
+   36  cd cunaguaro/
+   37  ls
+   38  nano cunaguaro.txt 
+   39  cd ..
+   40  ls
+   41  cd kernel/
+   42  ps -aux | grep kernel 
+   43  ps -aux | grep kernel.txt 
+   44  ls
+   45  uname -a
+   46  uname -a >> kernel.txt
+   47  ls
+   48  nano kernel.txt 
+   49  cd ..
+   50  ls
+   51  mv kernel/ kernel1.0
+   52  ls
+   53  cd /etc/network/interface
+   54  cd /etc/network/
+   55  ls
+   56  cd interfaces
+   57  nano interfaces 
+   58  ls
+   59  cd
+   60  ls
+   61  cd curso/
+   62  ls
+   63  cd
+   64  cd..
+   65  cd
+   66  ls
+   67  cd
+   68   /home/
+   69  cd  /home/
+   70  ls
+   71  cd equipo16/
+   72  ls
+   73  cd evaluacion/
+   74  ls
+   75  cd actividadcursoasl/
+   76  ls
+   77  mkdir sl
+   78  cd sl
+   79  aptitude install sl
+   80  ls
+   81  apt-get source sl
+   82  apt-get source slls
+   83  ls
+   84  cd sl-3.03/
+   85  ls
+   86  nano sl.h
+   87  cd ..
+   88  dpkg-buildpackage --commit
+   89  dpkg-buildpackage --commit .
+   90  dpkg-buildpackage --commit -a
+   91  dpkg-buildpackage --commit -a
+   92  dpkg-buildpackage --commit
+   93  dpkg-buildpackage -us -uc
+   94  cd sl-3.03/
+   95  ls
+   96* 
+   97  dpkg-buildpackage --commit
+   98  dpkg-source --commit
+   99  dpkg-buildpackage -us -uc
+  100  cd ..
+  101  cd ..
+  102  ls
+  103  mkdir canaima-semilla
+  104  ls
+  105  cd canaima-semilla/
+  106  ls
+  107  cd
+  108  cd /usr/share/canaima-semilla/
+  109  ls
+  110  cd profiles/
+  111  ls
+  112  cp -R primera-base/ /home/equipo16/evaluacion/actividadcursoasl/canaima-semilla
+  113  cd /home/equipo16/evaluacion/actividadcursoasl/canaima-semilla
+  114  ls
+  115  ls
+  116  ls
+  117  mv primera-base/ antoniofranco
+  118  ls
+  119  cd antoniofranco/
+  120  ls
+  121  nano profile.conf 
+  122  ls
+  123  cd ..
+  124  touch pasosiso.txt
+  125  ls
+  126  nano pasosiso.txt 
+  127  ls
+  128  cd ..
+  129  git push
+  130  git add .
+  131  git commit
+  132  git push
+  133  git push
+  134  nano /etc/apt/sources.list
+  135  debmirror --host=http.us.debian.org --root=debian --cleanup --nosource --ignore-missing-release --progress --ignore-release-gpg --arch=i386,amd64 --dist=wheezy,jessie --method=http --section=main,contrib,non-free /var/www/debian
+  136  history >> history1.txt

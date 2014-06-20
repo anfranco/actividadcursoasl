@@ -1,0 +1,367 @@
+    1  map ls
+    2  man ls
+    3  ls -a
+    4  ls -la
+    5  cd .orca
+    6  cd..
+    7  cd
+    8  sudo su
+    9  sudo
+   10  sudo su
+   11  su
+   12  ls
+   13  mkdir control
+   14  ls
+   15  git clone https://github.com/anfranco/curso.git
+   16  ls
+   17  ls -la
+   18  cd control
+   19  ls
+   20  git clone https://github.com/anfranco/curso.git
+   21  ls
+   22  ls -la
+   23  cd curso
+   24  ls
+   25  nano readme.md
+   26  ls
+   27  nano README.md 
+   28  git commit -a
+   29  ls
+   30  ls -la
+   31  touch prueba.md
+   32  ls
+   33  git add prueba.md 
+   34  ls -la
+   35  git commit -a
+   36  ls
+   37  ls -la
+   38  git commit -a
+   39  ls
+   40  ls -la
+   41  git config --global user.name "anfranco"
+   42  git config --global user.email "antonioluis.franco@gmail.com"
+   43  git push 
+   44  git clone https://github.com/anfranco/gnulinux.git
+   45  ls
+   46  cd gnulinux
+   47  ls
+   48  nano README.md 
+   49  commit -a
+   50  commit -als
+   51  ls
+   52  git commit -a
+   53  get push
+   54  git push 
+   55  mkdir debian
+   56  ls
+   57  cd debian
+   58  ls
+   59  touch debian.txt
+   60  ls
+   61  touch fedora.txt
+   62  ls
+   63  commit -a
+   64  git commit -a
+   65  commit -a
+   66  get commit
+   67  git commit -a
+   68  ls
+   69  nano debian.txt
+   70  nano fedora.txt 
+   71  git commit -a
+   72  commit -a
+   73  git commit -a
+   74  LS
+   75  ls
+   76  cd.
+   77  cd
+   78  cd control
+   79  ls
+   80  cd curso
+   81  ls
+   82  get add README.md 
+   83  get add commit  README.md 
+   84  get push
+   85  ls
+   86  cd gnulinux/
+   87  ls
+   88  git add .
+   89  git commit
+   90  git push
+   91  ls
+   92  cd debian/
+   93  ls
+   94  rm fedora.txt 
+   95  ls
+   96  git commit
+   97  cd
+   98  cd control/
+   99  cd curso/
+  100  ls
+  101  cd gnulinux/
+  102  ls
+  103  cd debian/
+  104  ls
+  105  git add .
+  106  git commit
+  107  git commit -a
+  108  git push
+  109  cd ..
+  110  ls
+  111  cd debian/
+  112  ls
+  113  cd ..
+  114  ls
+  115  git diff
+  116  ls
+  117  git diff
+  118  push
+  119  git push
+  120  git diff
+  121  ls
+  122  mkdir prueba
+  123  ls
+  124  git add .
+  125  git commit -a
+  126  git commit
+  127  git push
+  128  ls
+  129  cd ..
+  130  cd gnulinux/
+  131  git commit
+  132  clear
+  133  ls
+  134  rm prueba
+  135  rm prueba/
+  136  clear
+  137  git clone https://github.com/julioh/cursoasl.git
+  138  ls
+  139  cd ..
+  140  ls
+  141  nano README.md 
+  142  cd..
+  143  cd
+  144  ls
+  145  cd control/
+  146  ls
+  147  git clone https://github.com/julioh/cursoasl.git
+  148  ls
+  149  cd cursoasl/
+  150  ls
+  151  nano README.md 
+  152  LS
+  153  ls
+  154  nano README.md 
+  155  nano README.md
+  156  git add README.md 
+  157  git commit -a
+  158  clear
+  159  git pull
+  160  ls
+  161  cat README.md 
+  162  git pull
+  163  cat README.md 
+  164  git pull
+  165  ls
+  166  rm README.md 
+  167  git pull
+  168  cd ..
+  169  git clone https://github.com/julioh/cursoasl
+  170  git clone https://github.com/julioh/cursoasl.git
+  171  ls
+  172  rm -rf cursoasl/
+  173  ls
+  174  git clone https://github.com/julioh/cursoasl.git
+  175  ls
+  176  cd cursoasl/
+  177  ls
+  178  nano README.md 
+  179  git pull
+  180  nano README.md 
+  181  git add README.md 
+  182  git commit -a
+  183  git push
+  184  git pull
+  185  nano README.md 
+  186  git pull
+  187  ln --help
+  188  ls
+  189  cd cursoasl/
+  190  ls
+  191  gedit antoniofranco.txt
+  192  grep 
+  193  grep --help
+  194  tallf
+  195  tall
+  196  clear
+  197  tallf
+  198  tailf
+  199  tail
+  200  tailf
+  201  dpkg -l
+  202  dpkg -l >> firefoxhttps
+  203  dpkg -l >> mozilla
+  204  ls
+  205  mv -R firefoxhttps 
+  206  mv  firefoxhttps 
+  207  mv  firefoxhttps clear
+  208  cd..
+  209  cd  ..
+  210  ps -aux | grep mozilla
+  211  ps -aux | grep mozilla >> mozilla.txt
+  212  ls
+  213  ps -aux | grep cunaguaro
+  214  du -sh /home/
+  215  ls
+  216  cd /home/
+  217  ls
+  218  cd equipo16/
+  219  ls
+  220  du -sh /etc/
+  221  cat /proc/meminfo 
+  222  cat /proc/meminfo >> menmoria.txt
+  223  ls
+  224  uname
+  225  uname -a
+  226  uname -a >> kernel.txt
+  227  ls
+  228  nano kernel.txt 
+  229  map ls
+  230  mam
+  231  man
+  232  ps - aux | grep cunaguaro
+  233  ps -aux
+  234  kill -9 3321
+  235  cat toto > toto2
+  236  ls
+  237  df
+  238  man df
+  239  df
+  240  ls -al
+  241  ls
+  242  touch toto
+  243  ls
+  244  mv toto
+  245  mv -R toto
+  246  ls -al  > toto.txt && echo "Toto" > /etc/miarchivodeconfiguración
+  247  ls -al  > toto.txt && echo "Toto" > miarchivodeconfiguración
+  248  ls
+  249  cat miarchivodeconfiguración 
+  250  mkdir antoniofranco
+  251  ls
+  252  cd antoniofranco/
+  253  ls
+  254  touch c1
+  255  touch c2
+  256  touch c3
+  257  ls
+  258  nano c1
+  259  rv c1
+  260  rm c1
+  261  rm c2
+  262  rm c3
+  263  lsa
+  264  ls
+  265  touch c1.txt
+  266  touch c2.txt
+  267  touch c3.txt
+  268  ls -al  > toto.txt && echo "Antonio Franco" > c1
+  269  ls
+  270  cat c1
+  271  ls -al  echo "16822686" > c2
+  272  ls -al  > toto.txt && echo "16822686" > c2
+  273  cat c2
+  274  ls
+  275  ls -al echo "16822686" > c2
+  276  echo "antonioluis.franco" > c3
+  277  cat c3
+  278  nano c3
+  279  cd
+  280  ls
+  281  cd cursoasl/
+  282  ls
+  283  git pull
+  284  ls
+  285  git add .
+  286  git commit -a
+  287  ls
+  288  rm clear 
+  289  rm mozilla 
+  290  git commit -a
+  291  git push
+  292  ls
+  293  sl
+  294  sl & sl
+  295  sl && sl
+  296  sl && sl && sl && sl
+  297  su
+  298  rooy
+  299  root
+  300  su
+  301  bb
+  302  alsamixer
+  303  su
+  304  c-d crear-proyecto
+  305  cd /home/equipo16/
+  306  ls
+  307  cd canaima/
+  308  ls
+  309  cd
+  310  lks
+  311  ls
+  312  cd /home/equipo16/.config/canaima-desarrollador/
+  313  nano usuario.conf 
+  314  cd 
+  315  cd /home/equipo16/control
+  316  ls
+  317  c-d descargar --proyecto = "canaima-acerca"
+  318  cd -d crear-proyecto prueba
+  319  exit
+  320  ls
+  321  pwd
+  322  cd paquete-canaima/
+  323  ls
+  324  pwd
+  325  ls
+  326  history
+  327  su
+  328  x11vnc
+  329  su
+  330  history
+  331  history
+  332  history
+  333  su
+  334  cd /usr/share/canaima-semilla/
+  335  ls
+  336  cd isos/
+  337  ls
+  338  cd chroot/
+  339  ls
+  340  cd ..
+  341  ls
+  342  chroot chroot/
+  343  history
+  344  su
+  345  sl
+  346  ls
+  347  mkdir evaluacion
+  348  ls
+  349  cd evaluacion/
+  350  git clone https://github.com/julioh/cursoasl.git
+  351  ls
+  352  cd cursoasl/
+  353  ls
+  354  nano evaluacion.txt
+  355  ls
+  356  nano antoniofranco.txt 
+  357  pwd
+  358  ls
+  359  cd canaima-semilla/
+  360  ls
+  361  pwd
+  362  ls
+  363  nano antoniofranco.txt 
+  364  cd ..
+  365  ls
+  366  nano antoniofranco.txt 
+  367  history >> history.txt

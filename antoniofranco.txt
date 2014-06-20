@@ -85,12 +85,42 @@ x11vnc -bg -gui paswd
    - agregar un txt, con los pasos para ejecutar la creacion de la .iso
 
 18- donde se modifican los repositorios en debian, 
+/etc/apt/sources.list
+
    - cuales son los pasos para ejecutar un repositorio nuevo.
+
+
+nano /etc/apt/sources.list editamos el archivo 
+
+agregamos la url del repositorio descmarcando # de comentario
+deb- http://XXXXXXXXXXXXXXXXXX/debian XXXXX main contrib non-free 
+apt-get update actualizamos los repositorios .
+
+
 
 19- Las particiones de un disco se nombran mediante el nombre de dispositivo y el
 número de partición:
 
+disco duros IDE
+
+HDa maestro
+HDb Slave
+HDc Maestro secundario
+HDd Slave secundario
+
+Disco duros Sata
+
+Sda 1
+Sda 2
+Sda 3
+Sda 4
+Sda 5
+Sda 5
+
+
 20- Como hago un repositorio con debmirror, comando.
+
+debmirror --host=http.us.debian.org --root=debian --cleanup --nosource --ignore-missing-release --progress --ignore-release-gpg --arch=i386,amd64 --dist=wheezy,jessie --method=http --section=main,contrib,non-free /var/www/debian
 
 21- Guardar el history en .txt para verificar todo lo anterior fue realizado por ti.
 
